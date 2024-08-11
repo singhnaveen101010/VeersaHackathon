@@ -38,6 +38,7 @@ const registerUser = asyncHandler(async (req, res) => {
     VerificationCodeExpires: expireDate,
     isVerified: false,
     ForgetPasswordCode: "",
+    isVerified:true,
     ForgetPasswordCodeExpires: "",
   };
 
