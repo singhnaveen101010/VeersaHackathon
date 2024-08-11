@@ -1,0 +1,78 @@
+.message-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .message-container-body {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+  }
+  
+  .message-container-heading {
+    text-align: center;
+    height: 10vh;
+  }
+  .message-container-chat-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+  }
+  .file-name{
+    margin: 10px ;
+    background-color: #343030;
+    width: auto;
+    max-width: 250px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+  }
+  .message-container-chat {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .message-container-chat-messages {
+    overflow: scroll;
+    height: 75vh;
+  
+    padding: 10px;
+    background: #f4f4f4;
+  }
+  
+  .message {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .user-message {
+    background: #d1f7d6;
+    text-align: right;
+  }
+  
+  .doctor-message {
+    background: #fff;
+  }
+  
+  .message-input {
+    width: 90%;
+    padding: 10px;
+  }
+  
+  .send-button {
+    width: 80px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  
+  .upload-select {
+    margin-bottom: 10px;
+  }
+  
